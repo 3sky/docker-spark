@@ -34,6 +34,13 @@ To run `SparkPi`, exec into a container:
     docker exec -it dockerspark_master_1 /bin/bash
     bin/run-example SparkPi 10
 
+## 3sky changes
+
+Add second worker with smaller amout of RAM and cores for making SMACK lab. All init on `http://${YOUR_DOCKER_HOST}:8090` by:
+
+    docker-compose up -d 
+
+
 ## license
 
 MIT
